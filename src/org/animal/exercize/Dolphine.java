@@ -6,12 +6,12 @@ public class Dolphine extends Animal{
     }
 
     @Override
-    public void sound() {
-        System.out.println("EEEEE eeeee!!!");
+    public String sound() {
+        return "Skreeeeee";
     }
 
     @Override
-    public void eat() {
-        System.out.println("caramelle dufour");
+    public String eat() {
+        return "caramelle dufour";
     }
 }

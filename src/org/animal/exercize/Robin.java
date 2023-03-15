@@ -6,12 +6,12 @@ public class Robin extends Animal{
     }
 
     @Override
-    public void sound() {
-        System.out.println("Cip cip cip");
+    public String sound() {
+        return "Cip cip";
     }
 
     @Override
-    public void eat() {
-        System.out.println("Pizza");
+    public String eat() {
+        return "pizza";
     }
 }

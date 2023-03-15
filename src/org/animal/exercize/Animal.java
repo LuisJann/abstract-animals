@@ -1,6 +1,14 @@
 package org.animal.exercize;
 
 public abstract class Animal {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private String name;
 
     public Animal(String name) {
@@ -11,8 +19,8 @@ public abstract class Animal {
         System.out.println("ZzzzZzzzZzzZZzz...");
     }
 
-    public abstract void sound();
+    public abstract String sound();
 
-    public abstract void eat();
+    public abstract String eat();
 
 }
