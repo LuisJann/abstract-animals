@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73514c53-fff9-497a-a6c7-7f61208bd0dc" name="Changes" comment="First Commit">
+    <list default="true" id="73514c53-fff9-497a-a6c7-7f61208bd0dc" name="Changes" comment="1 exercise complete">
+      <change afterPath="$PROJECT_DIR$/src/org/animal/exercize/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/animal/exercize/Swim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/animal/exercize/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/animal/exercize/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/animal/exercize/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/animal/exercize/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/animal/exercize/Dolphine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/animal/exercize/Dolphine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/animal/exercize/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/animal/exercize/Eagle.java" afterDir="false" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,11 +62,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678887495360</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1 exercise complete">
+      <created>1678888932071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678888932071</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="1 exercise complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 exercise complete" />
   </component>
 </project>

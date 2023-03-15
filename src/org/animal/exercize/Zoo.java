@@ -15,34 +15,51 @@ public class Zoo {
 
             switch (userChoice){
                 case "D" ->{
-                    System.out.println("Come vuoi chiamarlo?");
-                    Dog dog = new Dog("");
-                    dog.setName(scan.next());
+                    System.out.println("Che nome vuoi dare: ");
+                    Dog dog = new Dog(scan.next());
                     System.out.println(dog.getName() + " Ti saluta");
                     System.out.println(dog.sound());
                     System.out.println("A lui piace molto mangiare: " + dog.eat());
+                    zoo[i] = dog;
                 } case "R"->{
-                    System.out.println("Come vuoi chiamaro?");
+                    System.out.println("Che nome vuoi dare: ");
                     Robin robin = new Robin(scan.next());
                     System.out.println(robin.getName() + " Ti saluta");
                     System.out.println(robin.sound());
                     System.out.println("A lui piace molto mangiare: " + robin.eat());
+                    zoo[i] = robin;
                 } case "Do"->{
-                    System.out.println("Come vuoi chiamarlo?");
+                    System.out.println("Che nome vuoi dare: ");
                     Dolphine dolphine = new Dolphine(scan.next());
                     System.out.println(dolphine.getName() + " Ti saluta");
                     System.out.println(dolphine.sound());
                     System.out.println("A lui piace molto mangiare: " + dolphine.eat());
+                    zoo[i] = dolphine;
                 } case "E"->{
-                    System.out.println("Come vuoi chiamarlo?");
+                    System.out.println("Che nome vuoi dare: ");
                     Eagle eagle = new Eagle(scan.next());
                     System.out.println(eagle.getName() + " Ti saluta");
                     System.out.println(eagle.sound());
                     System.out.println("A lui piace mangiare: " + eagle.eat());
+                    zoo[i] = eagle;
+
                 }
+
             }
         }
-        Animal dog = new Dog(scan.nextLine());
+        for (Animal animal: zoo){
+            if (animal instanceof Fly){
+                DoFly((Fly) animal);
+            }else{
+                DoSwim((Swim) animal);
+            }
+        }
 
+    }
+    public static void DoFly(Fly flyer){
+        flyer.fly();
+    }
+    public static void DoSwim(Swim swimmer){
+        swimmer.swim();
     }
 }

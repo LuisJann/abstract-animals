@@ -1,6 +1,6 @@
 package org.animal.exercize;
 
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Fly{
     public Eagle(String name) {
         super(name);
     }
@@ -13,5 +13,9 @@ public class Eagle extends Animal{
     @Override
     public String eat() {
         return "Carne";
+    }
+
+    public void fly() {
+        System.out.println("Sto volando!!!");
     }
 }

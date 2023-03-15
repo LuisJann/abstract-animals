@@ -1,6 +1,6 @@
 package org.animal.exercize;
 
-public class Dolphine extends Animal{
+public class Dolphine extends Animal implements Swim {
     public Dolphine(String name) {
         super(name);
     }
@@ -13,5 +13,9 @@ public class Dolphine extends Animal{
     @Override
     public String eat() {
         return "caramelle dufour";
+    }
+
+    public void swim() {
+        System.out.println("Sto nuotando!!!");
     }
 }
